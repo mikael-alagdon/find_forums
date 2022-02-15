@@ -1,0 +1,265 @@
+
+body{
+	/*background-size: cover;
+	background-image: url(bg2.jpg);
+	background-attachment: fixed;*/
+	background: #F6FAF5;
+	margin: 0;
+}
+.header{
+    background: #273b67; 
+    color: white;
+    padding: 10px;
+    margin-bottom: 35px;
+
+}
+#navbar{
+	background: #273b67;
+	padding-bottom: 20px;
+}
+.logo{
+  font-size: 90px;
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 10px;
+  color: #FFC100;
+  text-shadow: 3px 3px #E34949;
+  margin-top: 10%;
+}
+.snav-list{
+	font-weight: bold;
+
+}
+#footer{
+	margin-top: 100px;
+	padding: 180px;
+	background: #3D4768;
+	color: white;
+	font-size: 40px;
+
+}
+
+strong {
+	color: #273b67;
+}
+
+i {
+	font-size: 12px;
+	color: grey;
+	position: absolute;
+	right: 50;
+}
+
+#feed-container{
+	background: #E4E4E4;
+	box-shadow: 8px 8px #273b67;
+	padding: 50px;
+	margin: 50px 50px 50px 50px;
+}
+
+#feed-navbar{
+	background: #273b67;
+	color: white;
+	margin: 0;
+	padding: 15px;
+}
+input{
+	border-radius: 5px;
+	box-shadow: 5px 5px #273b67;
+}
+#logo{
+  font-family: 'Amatic SC', cursive;
+  color: #FFC100;
+  text-shadow: 3px 3px #E34949;
+  position: absolute;
+  left: 1000;
+  top: 0;
+}
+#home{
+	font-size: 90px;
+}
+#feed-post{
+	margin: 0px;
+}
+#feed-status{
+	background: white;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 0px 5px 0px;
+	border-radius: 8px;
+	color: black;
+}
+#status-comment{
+	margin-bottom: 10px;
+	/*background: #E8E5E4;*/
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	
+}
+#status-container{
+	font-size: 20px;
+
+}
+#comment-content{
+	/*background: #88B1E6;*/
+	background: #D5EBE3;
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid grey;
+}
+#feed-content{
+	background: #FE4B4D;
+	padding: 50px;
+	box-shadow: 8px 8px #273b67;
+}
+#feed-container{
+	padding: 30px;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+#feed-post{
+	margin-right: -20px;
+}
+#post-section{
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	background: white;
+}
+#post-btn{
+	padding: 13px;
+	background: #FFC100;
+}
+/*#status-comment{
+	display: none;
+
+}*/
+#search{
+	width: 500px;
+	position: absolute;
+	top: 85;
+	left: 55;
+
+}
+#search-btn{
+	box-shadow: none;
+	margin-right: 5px;
+	position: absolute;
+	top: 85;
+	left: 560;
+}
+a{
+	font-size: 15px;
+	text-decoration: none;
+}
+p{
+	margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #273b67;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    transition: 0.2s;
+}
+input{
+	border: none;
+}
+#user-name{
+	float: left;
+	margin-left: 165px;
+	margin-top: 20px;
+	top: -35;
+	color: #FFC100;
+	font-family: 'Amatic SC', cursive;
+	font-size: 80px;
+	position: absolute;
+}
+#user-name: hover{
+	transition: 0.2s;
+	color: white;
+
+}
+#welcome{
+	margin: 0;
+	color: #FFC100;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	padding: 30px;
+	margin-left: 25px;
+}
+#logout{
+}
+/*//////////////////////////SIDENAV////////////////////////////////////*/
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FEDC2E;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 60px;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#open-sidenav{
+	position: absolute;
+	top: 73;
+	left: 13;
+	color: white;
+}
+#open-sidenav:hover{
+	transform: scale(1.5);
+	transition: 0.2s;
+
+}

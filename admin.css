@@ -1,0 +1,118 @@
+body{
+	background-image: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+	margin: 0;
+}
+.header{
+    background: #273b67; 
+    color: white;
+    padding: 10px;
+    margin-bottom: 35px;
+
+}
+#logo{
+  font-size: 90px;
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 10px;
+  color: #FFC100;
+  text-shadow: 3px 3px #E34949;
+  margin-top: 10%;
+}
+table{
+	background: #FEF5B9; 
+	color: black;
+	box-shadow: 8px 8px #404A5E;
+  margin-bottom: 20px;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+  font-family: Century Gothic;
+}
+tr{
+	margin: 20px;
+  font-family: Century Gothic;
+}
+#logout > a{
+  padding: 20px;
+  background: #273b67;
+  position: absolute;
+  left: 1150;
+  color: white;
+  box-shadow: 5px 5px #404A5E;
+}
+#logout:hover{
+  background: #FFC100;
+  color: white;
+  transition: 0.3s;
+}
+#go-to-feed > a{
+  padding: 20px;
+  background: #273b67;
+  position: absolute;
+  left: 1150;
+  top: 250;
+  color: white;
+  box-shadow: 5px 5px #404A5E;
+}
+#go-to-feed:hover{
+  background: #FFC100;
+  color: white;
+  transition: 0.3s;
+}
+#tableHeader{
+  background: #273b67;
+  color: white;
+}
+#dashboard{
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 10px;
+  color: #FFC100;
+  text-shadow: 3px 3px #E34949;
+  margin-top: 10%;
+  background: #273b67;
+  z-index: 99;
+}
+#edit-table{
+  background: #FEF5B9;
+}
+input{
+  color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+.btn{
+  padding: 10px 15px 10px 15px;
+  margin-left: 50px;
+  background: #273b67;
+  color: white;
+  font-size: 20px;
+  font-family: Century Gothic;
+}
+.btn:hover{
+  background: #FFC100;
+  color: black;
+  transition: 0.3s;
+}
+#yes{
+  padding: 20px;
+  font-size: 20px;
+}
+#yes:hover{
+  background: red;
+  transition: 0.3s;
+  color: white
+}
+#no:hover{
+  background: #44CC00;
+  transition: 0.3s;
+}
+#no{
+   padding: 20px;
+  font-size: 20px;
+}
